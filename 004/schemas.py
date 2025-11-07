@@ -5,7 +5,6 @@ class UserRequest(BaseModel):
     age: int = Field(ge=1, le=120, description="The age of the user")
     email: EmailStr = Field(format="email", description="The email of the user")
     password: str = Field(min_length=8, max_length=100, description="The password of the user")
-<<<<<<< HEAD
 
 
 class UserOutput(BaseModel):
@@ -17,5 +16,4 @@ class UserOutput(BaseModel):
 class UserResponse(BaseModel):
     message: str = Field(description="The message of the response")
     user: UserOutput = Field(description="The user of the response")
-=======
->>>>>>> 95e70de818f8fc883a0935cca3bf1e5dc1812878
+
