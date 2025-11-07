@@ -1,5 +1,5 @@
 from fastapi import FastAPI # type: ignore
-from schemas import UserRequest
+from schemas import UserRequest, UserResponse
 
 
 app = FastAPI()
@@ -8,6 +8,6 @@ app = FastAPI()
 def hello_user():
     return {"hello":"world"}
 
-@app.post("/user")
+@app.post("/user", response_model = UserResponse)
 def create_user(user: UserRequest):
-    return {"message": "user created"}
+    return {"message": "User created", "user": user}
