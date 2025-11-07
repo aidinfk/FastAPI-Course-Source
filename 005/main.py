@@ -1,7 +1,6 @@
 from fastapi import FastAPI, status # type: ignore
 from schemas import UserRequest, UserResponse, UserOutput
 
-
 app = FastAPI()
 
 users = []
