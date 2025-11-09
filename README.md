@@ -7,7 +7,7 @@ The goal of this repository is to provide a clean, progressive, and well-structu
 
 ## 🚀 Getting Started
 
-### 1️⃣ Clone the repository
+1️⃣ Clone the repository
 ```bash
 git clone https://github.com/YOUR_GITHUB_USERNAME/FastAPI-Course-Source.git
 cd FastAPI-Course-Source
