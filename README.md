@@ -1,5 +1,5 @@
 # FastAPI-Course-Source
-This repository contains all the source code and examples I develop while learning **FastAPI** — a modern, high-performance web framework for building APIs with Python.
+This repository contains all the source code and examples I develop while learning **FastAPI** , a modern, high-performance web framework for building APIs with Python.
 
 Each lesson includes practical examples that cover core concepts such as routing, request handling, data validation, authentication, and database integration.  
 The goal of this repository is to provide a clean, progressive, and well-structured learning path for mastering FastAPI.
