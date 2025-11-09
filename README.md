@@ -20,7 +20,8 @@ source .venv/bin/activate  # on Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 4️⃣ Run the app
-uvicorn (lesson-number).app:app --reload
+. uvicorn (lesson-number).app:app --reload
+. fastapi dev ./[name of the .py file]
 Then open your browser at 👉 http://127.0.0.1:8000
 
 🤝 Contributing
